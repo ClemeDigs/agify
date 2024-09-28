@@ -1,0 +1,16 @@
+button {
+    background-color: var(--terracotta);
+    color: var(--white);
+    font-family: "IBM Plex Mono", monospace;
+    font-weight: 600;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+button:hover {
+    box-shadow: var(--box-shadow)
+}

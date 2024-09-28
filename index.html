@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ca-FR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="module" src="./assets/js/main.js" defer></script>
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="shortcut icon" href="#">
+    <script type="module" src="https://kit.fontawesome.com/d0b4d9ccc9.js" crossorigin="anonymous"></script>
+    <title>AGIFY</title>
+</head>
+<body>
+    <header>
+        <div class="header">
+            <h1><a href="https://agify.io/" target="_blank">agify.io</a></h1>
+        </div>
+    </header>
+    <main>
+        <div class="main-div">
+            <form class="search-form">
+                <label for="input-name"><h2>Estimate the Age of a Name</h2></label>
+                <div class="input-btn">
+                    <input type="text" id="input-name" placeholder="Enter your firstname here">
+                    <button class="search"><i class="fa-solid fa-magnifying-glass"></i> SEARCH</button>
+                </div>
+            </form>
+            <div class="loader hidden"></div>
+            <p class="result"></p>
+        </div>
+        <div class="main-aside">
+            <div class="history">
+                <button class="hide-history"><i class="fa-regular fa-eye-slash"></i>  HIDE HISTORY</button>
+                <ul class="list-history"></ul>
+            </div>
+            <div class="no-history hidden">
+                <button class="show-history"><i class="fa-regular fa-eye"></i>SHOW HISTORY</button>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="footer">
+            <p>Eve Cloutier et Clémentine Digout</p>
+            <p><time datetime="2024-09-26">26 septembre 2024</time></p>
+            <a href="https://www.figma.com/design/yLrUHWOQqZHCvf785ayVyd/agify?node-id=0-1&t=4AdhcpSC3cgeVvQt-1" target="_blank">Lien figma</a>
+        </div>
+    </footer>
+</body>
+</html>
